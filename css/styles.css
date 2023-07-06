@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   background-color: rgb(247, 246, 252);
   color: rgb(70, 71, 81);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .material-icons-outlined {
@@ -54,11 +54,10 @@ body {
   grid-template-columns: 260px 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 3fr;
   grid-template-areas:
-    "sidebar header header header"
-    "sidebar main main main";
+    'sidebar header header header'
+    'sidebar main main main';
   height: 100vh;
 }
-
 
 /* ---------- HEADER ---------- */
 
@@ -75,7 +74,6 @@ body {
 .menu-icon {
   display: none;
 }
-
 
 /* ---------- SIDEBAR ---------- */
 
@@ -136,7 +134,6 @@ body {
   display: inline !important;
   position: absolute;
 }
-
 
 /* ---------- MAIN ---------- */
 
@@ -216,11 +213,11 @@ body {
   background-color: rgb(29, 38, 154);
   color: rgb(255, 255, 255);
   padding: 20px;
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .product-button > .material-icons-outlined {
-  font-size: 50px; 
+  font-size: 50px;
 }
 
 .social-media {
@@ -248,9 +245,7 @@ body {
   font-size: 25px;
 }
 
-
 /* ---------- MEDIA QUERIES ---------- */
-
 
 /* Medium <= 992px */
 @media screen and (max-width: 992px) {
@@ -258,8 +253,8 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 3fr;
     grid-template-areas:
-      "header"
-      "main";
+      'header'
+      'main';
   }
 
   #sidebar {
